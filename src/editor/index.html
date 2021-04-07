@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor - OBS Overlay</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <button id="open-overlay">Open Overlay</button>
+
+  <div id="files">
+    <div class="file">
+      <h1 id="html-heading"></h1>
+      <textarea id="html-text"></textarea>
+      <button class="save-button" id="html-save">Save</button>
+    </div>
+
+    <div class="file">
+      <h1 id="css-heading"></h1>
+      <textarea id="css-text"></textarea>
+      <button class="save-button" id="css-save">Save</button>
+    </div>
+
+    <div class="file">
+      <h1 id="js-heading"></h1>
+      <textarea id="js-text"></textarea>
+      <button class="save-button" id="js-save">Save</button>
+    </div>
+  </div>
+</body>
+</html>
