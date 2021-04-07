@@ -1,0 +1,23 @@
+{
+  "name": "obs-overlay",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "lint": "eslint 'src/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schollsebastian/OBS-Overlay.git"
+  },
+  "author": "Sebastian Scholl <scholl.sebastian@gmx.at> (https://github.com/schollsebastian)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schollsebastian/OBS-Overlay/issues"
+  },
+  "homepage": "https://github.com/schollsebastian/OBS-Overlay#readme",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "eslint": "^7.23.0"
+  }
+}
